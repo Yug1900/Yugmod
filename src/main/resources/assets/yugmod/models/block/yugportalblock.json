@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "yugmod:blocks/yugportalblock",
+    "particle": "yugmod:blocks/yugportalblock"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "yugentitylivingsound": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "yugmod:grabacion-_15_",
+        "stream": false
+      },
+      {
+        "name": "yugmod:grabacion-_16_",
+        "stream": false
+      }
+    ]
+  },
+  "yugnomemates": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "yugmod:grabacion-_17_",
+        "stream": false
+      }
+    ]
+  }
+}

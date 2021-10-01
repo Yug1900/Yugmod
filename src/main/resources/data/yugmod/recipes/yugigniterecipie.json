@@ -1,0 +1,16 @@
+{
+  "group": "yugmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "yugmod:yugportalblock"
+    }
+  },
+  "result": {
+    "item": "yugmod:yugprodimension",
+    "count": 1
+  }
+}

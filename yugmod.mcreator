@@ -1,0 +1,148 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Yugino",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yugino"
+    },
+    {
+      "name": "YugMod",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yug_mod"
+    },
+    {
+      "name": "Yugportalblock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yugportalblock"
+    },
+    {
+      "name": "Yug",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yug"
+    },
+    {
+      "name": "Yuginolandbiome1",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yuginolandbiome_1"
+    },
+    {
+      "name": "Yugprodimension",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yugprodimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Yugigniterecipie",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yugigniterecipie"
+    },
+    {
+      "name": "Yugbiomespawn",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yugbiomespawn"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "yugentitylivingsound",
+      "files": [
+        "grabacion-_15_",
+        "grabacion-_16_"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "yugnomemates",
+      "files": [
+        "grabacion-_17_"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.yugmod.yug_spawn_egg": "Yug Spawn Egg",
+      "subtitles.yugentitylivingsound": "",
+      "block.yugmod.yugportalblock": "Yugportalblock",
+      "subtitles.yugnomemates": "",
+      "biome.yugmod.yuginolandbiome_1": "Yuginolandbiome 1",
+      "biome.yugmod.yugbiomespawn": "Yugbiomespawn",
+      "item.yugmod.yugprodimension": "Yugprodimension Portal Igniter",
+      "itemGroup.tabyug_mod": "Yug Mod",
+      "entity.yugmod.yug": "Yug",
+      "block.yugmod.yugino": "Yuginite"
+    },
+    "es_cl": {
+      "item.yugmod.yug_spawn_egg": "Generador de Yug",
+      "subtitles.yugentitylivingsound": "",
+      "block.yugmod.yugportalblock": "Bloque de portal de yug",
+      "subtitles.yugnomemates": "",
+      "biome.yugmod.yuginolandbiome_1": "Yuginolandbiome 1",
+      "biome.yugmod.yugbiomespawn": "Yugbiomespawn",
+      "item.yugmod.yugprodimension": "Dimension Yug Iniciador de portal",
+      "itemGroup.tabyug_mod": "Yug Mod",
+      "entity.yugmod.yug": "Yug",
+      "block.yugmod.yugino": "Yuginite"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "yugmod",
+    "modName": "Yugmod",
+    "version": "1.0.0",
+    "author": "euper_2u5, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.yugmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
