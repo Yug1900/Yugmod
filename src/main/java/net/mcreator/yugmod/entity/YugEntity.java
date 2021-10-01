@@ -33,12 +33,17 @@ import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
 
+import net.mcreator.yugmod.procedures.YugEntityDiesProcedure;
 import net.mcreator.yugmod.itemgroup.YugModItemGroup;
 import net.mcreator.yugmod.entity.renderer.YugRenderer;
 import net.mcreator.yugmod.YugmodModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @YugmodModElements.ModElement.Tag
 public class YugEntity extends YugmodModElements.ModElement {
@@ -141,6 +146,24 @@ public class YugEntity extends YugmodModElements.ModElement {
 			if (source.getDamageType().equals("witherSkull"))
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity sourceentity = source.getTrueSource();
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				YugEntityDiesProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }
